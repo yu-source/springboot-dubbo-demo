@@ -24,8 +24,9 @@ public class DubboController {
   private DubboHelloService dubboHelloService;
 
   @RequestMapping("/{dubbo}")
-  public String hello(@PathVariable(value = "dubbo") String youName) {
-    return dubboHelloService.hello(youName);
+  public String hello(@PathVariable(value = "dubbo") String yourName) {
+
+    return dubboHelloService.hello(yourName);
   }
 
 }

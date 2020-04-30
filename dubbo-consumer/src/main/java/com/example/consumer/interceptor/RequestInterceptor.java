@@ -18,7 +18,7 @@ public class RequestInterceptor implements HandlerInterceptor {
       throws Exception {
     //校验token值
     String token = request.getParameter("token");
-    if (Strings.isNotEmpty(token) && "yfj".equals(token)) {
+    if (Strings.isNotEmpty(token) && "yzj".equals(token)) {
       return true;
     }
     //这里注意 print 与 write 的区别

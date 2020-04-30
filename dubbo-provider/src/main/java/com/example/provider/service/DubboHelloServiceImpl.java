@@ -12,12 +12,12 @@ public class DubboHelloServiceImpl implements DubboHelloService {
 
   @Override
   public String hello(String name) {
-    try {
-      //模拟远程调用服务超时
-      TimeUnit.SECONDS.sleep(20);
-    } catch (InterruptedException e) {
-      e.printStackTrace();
-    }
-    return "hello ::: " + name;
+//    try {
+//      //模拟远程调用服务超时
+//      TimeUnit.SECONDS.sleep(20);
+//    } catch (InterruptedException e) {
+//      e.printStackTrace();
+//    }
+    return "hello ==>> " + name;
   }
 }
