@@ -9,4 +9,4 @@ springboot整合dubbo
 
 4、在浏览器中测试：http://localhost:8081/hello/test
   
-  test字符串任意，注意加有token认证token=yzj
+    test字符串任意，注意加有token认证token=yzj
